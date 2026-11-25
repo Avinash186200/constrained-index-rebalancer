@@ -1,0 +1,68 @@
+{
+ "reviews": [
+  8,
+  31
+ ],
+ "parent_realized_vol": 0.18256477286215275,
+ "rows": [
+  {
+   "lookback": 126,
+   "shrink": "ledoit_wolf",
+   "realized_vol": 0.13045035258647097,
+   "mean_exante_vol": 10.971320438951286,
+   "mean_shrink_delta": 0.18670114139511862,
+   "mean_turnover": 0.10000000368415797,
+   "ladder_rungs": 0
+  },
+  {
+   "lookback": 126,
+   "shrink": "none",
+   "realized_vol": 0.1303794349753035,
+   "mean_exante_vol": 11.870600654628818,
+   "mean_shrink_delta": 0.0,
+   "mean_turnover": 0.1000000026024016,
+   "ladder_rungs": 0
+  },
+  {
+   "lookback": 252,
+   "shrink": "ledoit_wolf",
+   "realized_vol": 0.12874621010090065,
+   "mean_exante_vol": 11.605190988253812,
+   "mean_shrink_delta": 0.09484151579530242,
+   "mean_turnover": 0.10000000294829696,
+   "ladder_rungs": 0
+  },
+  {
+   "lookback": 252,
+   "shrink": "none",
+   "realized_vol": 0.12870159557067787,
+   "mean_exante_vol": 12.080803489307586,
+   "mean_shrink_delta": 0.0,
+   "mean_turnover": 0.09999999956403491,
+   "ladder_rungs": 0
+  },
+  {
+   "lookback": 504,
+   "shrink": "ledoit_wolf",
+   "realized_vol": 0.12846870215085318,
+   "mean_exante_vol": 11.997062487551078,
+   "mean_shrink_delta": 0.04678919708418781,
+   "mean_turnover": 0.0982853722819313,
+   "ladder_rungs": 0
+  },
+  {
+   "lookback": 504,
+   "shrink": "none",
+   "realized_vol": 0.12846774975655256,
+   "mean_exante_vol": 12.24288107920294,
+   "mean_shrink_delta": 0.0,
+   "mean_turnover": 0.09825873436717958,
+   "ladder_rungs": 0
+  }
+ ],
+ "rule": "lowest realized volatility of the rule-constrained index over the development reviews, rounded to 0.01 vol points; ties go to Ledoit-Wolf shrinkage, then to the longer window",
+ "chosen": {
+  "lookback": 504,
+  "shrink": "ledoit_wolf"
+ }
+}

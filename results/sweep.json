@@ -1,0 +1,118 @@
+{
+ "0.05": {
+  "development": {
+   "ann_vol": 0.12796132289630732,
+   "tracking_error": 0.07148243559171519,
+   "ann_return": -0.0027684531524775347,
+   "mean_turnover": 0.05652174499825405,
+   "reviews_relaxed": 3,
+   "checker_pass": 24,
+   "reviews": 24
+  },
+  "held_out": {
+   "ann_vol": 0.12402210087398224,
+   "tracking_error": 0.07396471678857292,
+   "ann_return": 0.02587349290079599,
+   "mean_turnover": 0.060000003807594036,
+   "reviews_relaxed": 3,
+   "checker_pass": 20,
+   "reviews": 20
+  },
+  "full": {
+   "ann_vol": 0.12616715500172135,
+   "tracking_error": 0.07262140579811388,
+   "ann_return": 0.01014448457469741,
+   "mean_turnover": 0.05813953979329591,
+   "reviews_relaxed": 6,
+   "checker_pass": 44,
+   "reviews": 44
+  }
+ },
+ "0.10": {
+  "development": {
+   "ann_vol": 0.12846870215085318,
+   "tracking_error": 0.07123744001881438,
+   "ann_return": -1.2958821035136125e-06,
+   "mean_turnover": 0.0982853722819313,
+   "reviews_relaxed": 0,
+   "checker_pass": 24,
+   "reviews": 24
+  },
+  "held_out": {
+   "ann_vol": 0.12396927984815431,
+   "tracking_error": 0.07428415442069572,
+   "ann_return": 0.03352877044122837,
+   "mean_turnover": 0.10417942438191627,
+   "reviews_relaxed": 1,
+   "checker_pass": 20,
+   "reviews": 20
+  },
+  "full": {
+   "ann_vol": 0.12642565428385724,
+   "tracking_error": 0.07263549165178175,
+   "ann_return": 0.015096038661801092,
+   "mean_turnover": 0.10102679186331966,
+   "reviews_relaxed": 1,
+   "checker_pass": 44,
+   "reviews": 44
+  }
+ },
+ "0.20": {
+  "development": {
+   "ann_vol": 0.12843027498070297,
+   "tracking_error": 0.07127789186121869,
+   "ann_return": 0.001050216289767869,
+   "mean_turnover": 0.123755548181913,
+   "reviews_relaxed": 0,
+   "checker_pass": 24,
+   "reviews": 24
+  },
+  "held_out": {
+   "ann_vol": 0.12402827260128624,
+   "tracking_error": 0.0743639149089034,
+   "ann_return": 0.03482041514661316,
+   "mean_turnover": 0.12271287820097217,
+   "reviews_relaxed": 0,
+   "checker_pass": 20,
+   "reviews": 20
+  },
+  "full": {
+   "ann_vol": 0.12643068767613222,
+   "tracking_error": 0.07269406556938143,
+   "ann_return": 0.01625484557182677,
+   "mean_turnover": 0.12327058540008001,
+   "reviews_relaxed": 0,
+   "checker_pass": 44,
+   "reviews": 44
+  }
+ },
+ "1.00": {
+  "development": {
+   "ann_vol": 0.12844892606248348,
+   "tracking_error": 0.07125874755938431,
+   "ann_return": 0.0010442000380508354,
+   "mean_turnover": 0.12447266780056379,
+   "reviews_relaxed": 0,
+   "checker_pass": 24,
+   "reviews": 24
+  },
+  "held_out": {
+   "ann_vol": 0.12406539178637632,
+   "tracking_error": 0.07432211760094998,
+   "ann_return": 0.03470012383483412,
+   "mean_turnover": 0.12453191684027147,
+   "reviews_relaxed": 0,
+   "checker_pass": 20,
+   "reviews": 20
+  },
+  "full": {
+   "ann_vol": 0.1264575329313143,
+   "tracking_error": 0.07266446755942524,
+   "ann_return": 0.01619783775671313,
+   "mean_turnover": 0.1245002254934511,
+   "reviews_relaxed": 0,
+   "checker_pass": 44,
+   "reviews": 44
+  }
+ }
+}

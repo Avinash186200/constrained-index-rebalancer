@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ixrebal"
+version = "1.0.0"
+description = "Quarterly rebuild of a minimum-volatility index under benchmark-relative rules: cvxpy minimum variance with a shrunk covariance, turnover against drifted holdings, a logged relaxation ladder, an independent rule checker, binding rules from dual values, and a backtest against the parent and an unconstrained minimum-variance book."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "cvxpy>=1.5", "clarabel>=0.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "hypothesis>=6.100"]
+
+[project.scripts]
+ixrebal = "ixrebal.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint.per-file-ignores]
+"src/ixrebal/bench.py" = ["E501"]   # markdown table headers

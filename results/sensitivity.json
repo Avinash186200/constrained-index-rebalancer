@@ -1,0 +1,62 @@
+{
+ "committed": {
+  "development": {
+   "ann_vol": 0.12846870215085318,
+   "tracking_error": 0.07123744001881438,
+   "mean_turnover": 0.0982853722819313,
+   "reviews_relaxed": 0,
+   "support_round_up": 0,
+   "checker_pass": 24,
+   "reviews": 24
+  },
+  "held_out": {
+   "ann_vol": 0.12396927984815431,
+   "tracking_error": 0.07428415442069572,
+   "mean_turnover": 0.10417942438191627,
+   "reviews_relaxed": 1,
+   "support_round_up": 0,
+   "checker_pass": 20,
+   "reviews": 20
+  }
+ },
+ "first_run_choice_504_none": {
+  "development": {
+   "ann_vol": 0.12846774975655256,
+   "tracking_error": 0.07126184340931511,
+   "mean_turnover": 0.09825873436717958,
+   "reviews_relaxed": 0,
+   "support_round_up": 0,
+   "checker_pass": 24,
+   "reviews": 24
+  },
+  "held_out": {
+   "ann_vol": 0.12397025861615583,
+   "tracking_error": 0.07432684650662798,
+   "mean_turnover": 0.10407636675131833,
+   "reviews_relaxed": 1,
+   "support_round_up": 0,
+   "checker_pass": 20,
+   "reviews": 20
+  }
+ },
+ "min_names_100": {
+  "development": {
+   "ann_vol": 0.12847502423021998,
+   "tracking_error": 0.07127085229997193,
+   "mean_turnover": 0.09834223891813766,
+   "reviews_relaxed": 0,
+   "support_round_up": 0,
+   "checker_pass": 24,
+   "reviews": 24
+  },
+  "held_out": {
+   "ann_vol": 0.12395259444338079,
+   "tracking_error": 0.07432316709842993,
+   "mean_turnover": 0.10403736756009403,
+   "reviews_relaxed": 1,
+   "support_round_up": 0,
+   "checker_pass": 20,
+   "reviews": 20
+  }
+ }
+}

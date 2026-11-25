@@ -1,0 +1,141 @@
+{
+ "chosen": {
+  "lookback": 504,
+  "shrink": "ledoit_wolf"
+ },
+ "development": {
+  "parent": {
+   "days": 1512,
+   "ann_return": -0.028703029304428807,
+   "ann_vol": 0.18256477286215275,
+   "max_drawdown": -0.5129964300180403
+  },
+  "index": {
+   "days": 1512,
+   "ann_return": -1.2958821035136125e-06,
+   "ann_vol": 0.12846870215085318,
+   "max_drawdown": -0.3650578442180612,
+   "vol_reduction": 0.2963116589427979,
+   "tracking_error": 0.07123744001881438,
+   "beta": 0.671459197958078,
+   "reviews": 24,
+   "mean_turnover": 0.0982853722819313,
+   "mean_names": 120.33333333333333,
+   "mean_max_sector_dev": 0.04994876556191774,
+   "max_sector_dev": 0.05000000000009559,
+   "mean_max_country_dev": 0.049699724926004225,
+   "max_country_dev": 0.04999999999993561,
+   "mean_exante_vol": 11.997062487551078,
+   "realized_over_exante": 1.0708346504334751
+  },
+  "unconstrained": {
+   "days": 1512,
+   "ann_return": 0.00273035052671311,
+   "ann_vol": 0.12352984828028633,
+   "max_drawdown": -0.3406750091502887,
+   "vol_reduction": 0.3233642704249483,
+   "tracking_error": 0.09454448499447507,
+   "beta": 0.5948242340486493,
+   "reviews": 24,
+   "mean_turnover": 0.20925778111314813,
+   "mean_names": 58.25,
+   "mean_max_sector_dev": 0.12260152035149186,
+   "max_sector_dev": 0.15488902194256965,
+   "mean_max_country_dev": 0.14933677713428473,
+   "max_country_dev": 0.1993484072485699,
+   "mean_exante_vol": 10.750821515838817,
+   "realized_over_exante": 1.149027058986088
+  },
+  "index_vs_unconstrained_te": 0.04552941978880734
+ },
+ "held_out": {
+  "parent": {
+   "days": 1259,
+   "ann_return": 0.04528755751923397,
+   "ann_vol": 0.1802123765348203,
+   "max_drawdown": -0.286379843132616
+  },
+  "index": {
+   "days": 1259,
+   "ann_return": 0.03352877044122837,
+   "ann_vol": 0.12396927984815431,
+   "max_drawdown": -0.19150152072180593,
+   "vol_reduction": 0.3120934187103337,
+   "tracking_error": 0.07428415442069572,
+   "beta": 0.6516519105969778,
+   "reviews": 20,
+   "mean_turnover": 0.10417942438191627,
+   "mean_names": 120.15,
+   "mean_max_sector_dev": 0.049999999997855746,
+   "max_sector_dev": 0.05000000001961327,
+   "mean_max_country_dev": 0.04999999997122055,
+   "max_country_dev": 0.050000000018006974,
+   "mean_exante_vol": 11.809838089975838,
+   "realized_over_exante": 1.049711934267576
+  },
+  "unconstrained": {
+   "days": 1259,
+   "ann_return": 0.02793984015403872,
+   "ann_vol": 0.11678270200854522,
+   "max_drawdown": -0.22434274724936232,
+   "vol_reduction": 0.351971799861478,
+   "tracking_error": 0.09978738931129073,
+   "beta": 0.5566667644061033,
+   "reviews": 20,
+   "mean_turnover": 0.21117777557066905,
+   "mean_names": 62.45,
+   "mean_max_sector_dev": 0.15820342494180578,
+   "max_sector_dev": 0.19851996860646232,
+   "mean_max_country_dev": 0.12905541083821442,
+   "max_country_dev": 0.19574501251671422,
+   "mean_exante_vol": 10.410806249949552,
+   "realized_over_exante": 1.1217450330430567
+  },
+  "index_vs_unconstrained_te": 0.048917729216440775
+ },
+ "full": {
+  "parent": {
+   "days": 2771,
+   "ann_return": 0.004241975669802001,
+   "ann_vol": 0.1814814986917915,
+   "max_drawdown": -0.5284322669462878
+  },
+  "index": {
+   "days": 2771,
+   "ann_return": 0.015096038661801092,
+   "ann_vol": 0.12642565428385724,
+   "max_drawdown": -0.3650578442180612,
+   "vol_reduction": 0.30336890980515396,
+   "tracking_error": 0.07263549165178175,
+   "beta": 0.6625528721373611,
+   "reviews": 44,
+   "mean_turnover": 0.10102679186331966,
+   "mean_names": 120.25,
+   "mean_max_sector_dev": 0.04997205394188957,
+   "max_sector_dev": 0.05000000001961327,
+   "mean_max_country_dev": 0.049836213582920744,
+   "max_country_dev": 0.050000000018006974,
+   "mean_exante_vol": 11.911960488653243,
+   "realized_over_exante": 1.0613337275949177
+  },
+  "unconstrained": {
+   "days": 2771,
+   "ann_return": 0.01410668567752782,
+   "ann_vol": 0.12049194913981495,
+   "max_drawdown": -0.3406750091502887,
+   "vol_reduction": 0.33606483300843015,
+   "tracking_error": 0.0969562305068412,
+   "beta": 0.5776941876260976,
+   "reviews": 44,
+   "mean_turnover": 0.21015080179106485,
+   "mean_names": 60.15909090909091,
+   "mean_max_sector_dev": 0.13878420425618002,
+   "max_sector_dev": 0.19851996860646232,
+   "mean_max_country_dev": 0.14011797427243458,
+   "max_country_dev": 0.1993484072485699,
+   "mean_exante_vol": 10.596269122252789,
+   "realized_over_exante": 1.1371167318388957
+  },
+  "index_vs_unconstrained_te": 0.04709124016856297
+ }
+}

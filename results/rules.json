@@ -1,0 +1,285 @@
+{
+ "development": {
+  "reviews": 24,
+  "checker_pass": 24,
+  "checker_failures": 0,
+  "reviews_relaxed": 0,
+  "ladder": [],
+  "strict_rules_failed": [],
+  "min_names_promotions": 20,
+  "mean_promoted": 8.291666666666666,
+  "support_round_up": 0,
+  "solver_inaccurate_accepted": 0,
+  "solver_failed_or_rejected": 0,
+  "binding": {
+   "cap": {
+    "reviews_with_rule": 24,
+    "share_reviews_binding": 1.0,
+    "mean_n_binding": 78.95833333333333,
+    "mean_constraints": 120.33333333333333,
+    "mean_dual_per_pp": 37.20636281666887
+   },
+   "country": {
+    "reviews_with_rule": 24,
+    "share_reviews_binding": 0.9583333333333334,
+    "mean_n_binding": 1.7916666666666667,
+    "mean_constraints": 12.0,
+    "mean_dual_per_pp": 0.19488200895213126
+   },
+   "min_weight": {
+    "reviews_with_rule": 24,
+    "share_reviews_binding": 0.9166666666666666,
+    "mean_n_binding": 9.916666666666666,
+    "mean_constraints": 120.33333333333333,
+    "mean_dual_per_pp": 0.8237800936857423
+   },
+   "sector": {
+    "reviews_with_rule": 24,
+    "share_reviews_binding": 0.9583333333333334,
+    "mean_n_binding": 1.9166666666666667,
+    "mean_constraints": 22.0,
+    "mean_dual_per_pp": 0.2925444296341804
+   },
+   "turnover": {
+    "reviews_with_rule": 23,
+    "share_reviews_binding": 0.875,
+    "mean_n_binding": 0.9130434782608695,
+    "mean_constraints": 1.0,
+    "mean_dual_per_pp": 0.10443874242462713
+   }
+  },
+  "costs": {
+   "cap": {
+    "mean_vol_cost": 0.39807324200956823,
+    "max_vol_cost": 0.8655309806397575,
+    "reviews_negative": 0
+   },
+   "sector": {
+    "mean_vol_cost": 0.011499956600251382,
+    "max_vol_cost": 0.08002686620774746,
+    "reviews_negative": 0
+   },
+   "country": {
+    "mean_vol_cost": 0.006625811462585081,
+    "max_vol_cost": 0.02255332200915916,
+    "reviews_negative": 0
+   },
+   "turnover": {
+    "mean_vol_cost": 0.011248467636696402,
+    "max_vol_cost": 0.08132915374164362,
+    "reviews_negative": 3
+   },
+   "holding": {
+    "mean_vol_cost": 0.0011236350720043031,
+    "max_vol_cost": 0.0040206954066999145,
+    "reviews_negative": 0
+   },
+   "all": {
+    "mean_vol_cost": 1.2462409717122604,
+    "max_vol_cost": 1.5340611626127476,
+    "reviews_negative": 0
+   }
+  },
+  "sum_single_rule_costs": 0.4285711127811054
+ },
+ "held_out": {
+  "reviews": 20,
+  "checker_pass": 20,
+  "checker_failures": 0,
+  "reviews_relaxed": 1,
+  "ladder": [
+   {
+    "review": 42,
+    "rule": "turnover",
+    "from": 0.1,
+    "to": 0.15000000000000002,
+    "failed_stage": "p0"
+   },
+   {
+    "review": 42,
+    "rule": "turnover",
+    "from": 0.15000000000000002,
+    "to": 0.2,
+    "failed_stage": "p0"
+   }
+  ],
+  "strict_rules_failed": [
+   "turnover"
+  ],
+  "min_names_promotions": 17,
+  "mean_promoted": 7.0,
+  "support_round_up": 0,
+  "solver_inaccurate_accepted": 0,
+  "solver_failed_or_rejected": 0,
+  "binding": {
+   "cap": {
+    "reviews_with_rule": 20,
+    "share_reviews_binding": 1.0,
+    "mean_n_binding": 81.5,
+    "mean_constraints": 120.15,
+    "mean_dual_per_pp": 39.14599684362172
+   },
+   "country": {
+    "reviews_with_rule": 20,
+    "share_reviews_binding": 1.0,
+    "mean_n_binding": 2.1,
+    "mean_constraints": 12.0,
+    "mean_dual_per_pp": 0.31235883218234406
+   },
+   "min_weight": {
+    "reviews_with_rule": 20,
+    "share_reviews_binding": 0.95,
+    "mean_n_binding": 8.85,
+    "mean_constraints": 120.15,
+    "mean_dual_per_pp": 0.6529799900443886
+   },
+   "sector": {
+    "reviews_with_rule": 20,
+    "share_reviews_binding": 1.0,
+    "mean_n_binding": 2.3,
+    "mean_constraints": 22.0,
+    "mean_dual_per_pp": 1.0278443967412145
+   },
+   "turnover": {
+    "reviews_with_rule": 20,
+    "share_reviews_binding": 0.9,
+    "mean_n_binding": 0.9,
+    "mean_constraints": 1.0,
+    "mean_dual_per_pp": 0.0828968792457911
+   }
+  },
+  "costs": {
+   "cap": {
+    "mean_vol_cost": 0.4331538843453628,
+    "max_vol_cost": 0.7043497091508524,
+    "reviews_negative": 0
+   },
+   "sector": {
+    "mean_vol_cost": 0.12656610149131034,
+    "max_vol_cost": 0.25929812973864763,
+    "reviews_negative": 0
+   },
+   "country": {
+    "mean_vol_cost": 0.017486658140168566,
+    "max_vol_cost": 0.07180484748979765,
+    "reviews_negative": 0
+   },
+   "turnover": {
+    "mean_vol_cost": 0.0063687971383066255,
+    "max_vol_cost": 0.025596284862313468,
+    "reviews_negative": 3
+   },
+   "holding": {
+    "mean_vol_cost": 0.0008892676380042985,
+    "max_vol_cost": 0.0030743618089790203,
+    "reviews_negative": 0
+   },
+   "all": {
+    "mean_vol_cost": 1.399031840026285,
+    "max_vol_cost": 1.7796257001405724,
+    "reviews_negative": 0
+   }
+  },
+  "sum_single_rule_costs": 0.5844647087531527
+ },
+ "full": {
+  "reviews": 44,
+  "checker_pass": 44,
+  "checker_failures": 0,
+  "reviews_relaxed": 1,
+  "ladder": [
+   {
+    "review": 42,
+    "rule": "turnover",
+    "from": 0.1,
+    "to": 0.15000000000000002,
+    "failed_stage": "p0"
+   },
+   {
+    "review": 42,
+    "rule": "turnover",
+    "from": 0.15000000000000002,
+    "to": 0.2,
+    "failed_stage": "p0"
+   }
+  ],
+  "strict_rules_failed": [
+   "turnover"
+  ],
+  "min_names_promotions": 37,
+  "mean_promoted": 7.704545454545454,
+  "support_round_up": 0,
+  "solver_inaccurate_accepted": 0,
+  "solver_failed_or_rejected": 0,
+  "binding": {
+   "cap": {
+    "reviews_with_rule": 44,
+    "share_reviews_binding": 1.0,
+    "mean_n_binding": 80.11363636363636,
+    "mean_constraints": 120.25,
+    "mean_dual_per_pp": 38.08801464710199
+   },
+   "country": {
+    "reviews_with_rule": 44,
+    "share_reviews_binding": 0.9772727272727273,
+    "mean_n_binding": 1.9318181818181819,
+    "mean_constraints": 12.0,
+    "mean_dual_per_pp": 0.24828056496586431
+   },
+   "min_weight": {
+    "reviews_with_rule": 44,
+    "share_reviews_binding": 0.9318181818181818,
+    "mean_n_binding": 9.431818181818182,
+    "mean_constraints": 120.25,
+    "mean_dual_per_pp": 0.7461436829396724
+   },
+   "sector": {
+    "reviews_with_rule": 44,
+    "share_reviews_binding": 0.9772727272727273,
+    "mean_n_binding": 2.090909090909091,
+    "mean_constraints": 22.0,
+    "mean_dual_per_pp": 0.626771687410105
+   },
+   "turnover": {
+    "reviews_with_rule": 43,
+    "share_reviews_binding": 0.8863636363636364,
+    "mean_n_binding": 0.9069767441860465,
+    "mean_constraints": 1.0,
+    "mean_dual_per_pp": 0.09441927117865688
+   }
+  },
+  "costs": {
+   "cap": {
+    "mean_vol_cost": 0.41401898852583846,
+    "max_vol_cost": 0.8655309806397575,
+    "reviews_negative": 0
+   },
+   "sector": {
+    "mean_vol_cost": 0.0638027497325509,
+    "max_vol_cost": 0.25929812973864763,
+    "reviews_negative": 0
+   },
+   "country": {
+    "mean_vol_cost": 0.011562559952395756,
+    "max_vol_cost": 0.07180484748979765,
+    "reviews_negative": 0
+   },
+   "turnover": {
+    "mean_vol_cost": 0.009030435591973777,
+    "max_vol_cost": 0.08132915374164362,
+    "reviews_negative": 6
+   },
+   "holding": {
+    "mean_vol_cost": 0.0010171044201861192,
+    "max_vol_cost": 0.0040206954066999145,
+    "reviews_negative": 0
+   },
+   "all": {
+    "mean_vol_cost": 1.3156913664004535,
+    "max_vol_cost": 1.7796257001405724,
+    "reviews_negative": 0
+   }
+  },
+  "sum_single_rule_costs": 0.49943183822294496
+ }
+}
